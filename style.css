@@ -1,3 +1,43 @@
+.afternoon-img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #bfae8a33;
+  display: inline-block;
+  object-fit: cover;
+  background: #f5e6c8;
+}
+@media (max-width: 600px) {
+  .afternoon-img {
+    max-width: 90vw;
+    min-width: 120px;
+  }
+}
+.header-dog-logo {
+  width: min(18vw, 180px);
+  height: min(18vw, 180px);
+  max-width: 180px;
+  max-height: 180px;
+  min-width: 48px;
+  min-height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e0c9a6;
+  box-shadow: 0 2px 10px #bfae8a55;
+  background: #fffbe7;
+  transition: transform 0.2s;
+}
+@media (max-width: 600px) {
+  .header-dog-logo {
+    width: 96px;
+    height: 96px;
+    max-width: 96px;
+    max-height: 96px;
+    min-width: 72px;
+    min-height: 72px;
+  }
+}
 /* 旅遊計畫 Banner */
 .travel-banner {
   position: relative;
