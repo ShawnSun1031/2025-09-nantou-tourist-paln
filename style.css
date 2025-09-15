@@ -37,14 +37,135 @@
     padding: 10px 4px 8px 4px;
   }
 }
+
 body {
   font-family: 'Noto Serif TC', serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f2;
-  color: #333;
+  background: linear-gradient(135deg, #e9e4d5 0%, #f5f0e6 100%);
+  color: #4e3b1f;
   line-height: 1.8;
 }
+
+.wood-bg {
+  background: linear-gradient(120deg, #e9e4d5 60%, #f5f0e6 100%);
+}
+
+.card {
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px 0 rgba(120, 90, 40, 0.08);
+  margin: 32px auto;
+  padding: 36px 28px 28px 28px;
+  max-width: 900px;
+  border: 1.5px solid #e0c9a6;
+}
+
+.hero {
+  background: linear-gradient(120deg, #e9e4d5 60%, #f5f0e6 100%);
+  padding: 0;
+  text-align: center;
+  color: #4e3b1f;
+  box-shadow: 0 2px 12px 0 #e0c9a655;
+  border-bottom: 2px solid #e0c9a6;
+}
+.hero-content {
+  padding: 32px 0 12px 0;
+}
+.hero h1 {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  color: #7c5a2b;
+  text-shadow: 1px 1px 0 #e0c9a6, 0 2px 8px #fff8;
+}
+.hero p {
+  color: #6d4c1b;
+  font-size: 1.2rem;
+}
+
+.travel-banner {
+  border-bottom: 2px solid #e0c9a6;
+}
+.banner-text {
+  background: linear-gradient(180deg, rgba(120,90,40,0.05) 60%, rgba(120,90,40,0.45) 100%);
+  color: #fffde7;
+  text-shadow: 2px 2px 8px #7c5a2b99, 0 0 2px #7c5a2b;
+}
+
+.map-section h2, .itinerary h2, .tips h2, .intro h2 {
+  color: #7c5a2b;
+  letter-spacing: 1.5px;
+}
+
+.info-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 30px;
+  justify-content: center;
+}
+.info-card.wood-card {
+  background: linear-gradient(120deg, #f5e6c8 60%, #f9f6f1 100%);
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(120, 90, 40, 0.10);
+  padding: 24px 28px 18px 28px;
+  min-width: 220px;
+  max-width: 320px;
+  flex: 1 1 240px;
+  border: 2px solid #e0c9a6;
+  position: relative;
+  transition: box-shadow 0.2s, border 0.2s;
+  color: #4e3b1f;
+}
+.info-card.wood-card h4 {
+  margin-top: 0;
+  color: #7c5a2b;
+  font-size: 1.18rem;
+  letter-spacing: 1px;
+  background: linear-gradient(90deg, #e0c9a6 60%, #f5e6c8 100%);
+  color: #7c5a2b;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px #e0c9a622;
+}
+.info-card.wood-card a {
+  color: #7c5a2b;
+  text-decoration: underline dotted;
+  font-weight: bold;
+}
+.info-card.wood-card ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.hotel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px #e0c9a655;
+}
+
+.highlight {
+  color: #7c5a2b;
+  font-weight: bold;
+  background: #f5e6c8;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.afternoon-options {
+  margin: 0 0 10px 1.5em;
+  padding: 0;
+  list-style: disc inside;
+  color: #6d4c1b;
+  font-size: 1.05rem;
+}
+
+/* 其他區塊與響應式設計可依需求延伸 */
 
 .hero {
   background-image: url('sunmoonlake.jpg');
